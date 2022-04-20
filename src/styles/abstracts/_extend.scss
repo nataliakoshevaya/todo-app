@@ -1,0 +1,14 @@
+%remove-browser-borders {
+    border: none;
+    outline: none;
+}
+
+%border {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+%flex-container {
+    display: flex;
+    justify-content: space-between;
+}

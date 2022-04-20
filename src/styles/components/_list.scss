@@ -1,0 +1,14 @@
+@import '../abstracts/abstracts';
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+li {
+    @extend %flex-container;
+    @include bacground-color($white);
+    @extend %border;
+    margin-top: 10px;
+    border: 1px solid $darkgrey;
+}

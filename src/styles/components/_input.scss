@@ -1,0 +1,11 @@
+@import '../abstracts/abstracts';
+
+#todos__input {
+    margin-bottom: 20px;
+    margin: 20px;
+    @extend %remove-browser-borders;
+    @extend %border;
+    &:focus {
+        background-color: $lightviolet;
+    }
+}

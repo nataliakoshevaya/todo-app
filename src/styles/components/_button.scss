@@ -1,0 +1,8 @@
+@import '../abstracts/abstracts';
+
+#todos__btn {
+    cursor: pointer;
+    @extend %remove-browser-borders;
+    @extend %border;
+    border: 1px solid $darkgrey;
+}

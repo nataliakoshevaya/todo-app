@@ -1,0 +1,28 @@
+@import '../abstracts/abstracts';
+
+* {
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    @include bacground-color($grey);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.todo__header {
+    padding: 20px 0;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
